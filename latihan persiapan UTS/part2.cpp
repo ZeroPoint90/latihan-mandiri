@@ -19,11 +19,11 @@ int main(){
     }std::cout << "\n"; //harus taro diluar biar ganti baris
 
     for (int i = 1; i <= baris; i++){
-        std::cout << "^";
+        std::cout << "|";
         for (int j = 1; j <= kolom; j++){
             std::cout << simbol;
         }
-        std::cout << "^\n";
+        std::cout << "|\n";
     }
 
     for (int i = 1; i <= baris; i++){
